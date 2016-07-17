@@ -10,8 +10,11 @@ import scrapy
 
 class AFLItem(scrapy.Item):
     # define the fields for your item here like:
-
-    club = scrapy.Field()
+    name = scrapy.Field()
     link = scrapy.Field()
-
+    logoURL = scrapy.Field()
+    state = scrapy.Field()
+    establish = scrapy.Field()
+    stadium = scrapy.Field()
+    
     pass
