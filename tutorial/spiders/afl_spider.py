@@ -1,4 +1,5 @@
 import scrapy
+from tutorial.items import AFLItem
 
 class AFLSpider(scrapy.Spider):
     name = "AFL"
@@ -8,6 +9,7 @@ class AFLSpider(scrapy.Spider):
 
     def parse(self,response):
         for sel in response.xpath('//ul[@class="team-logos"]/li/a'):
-            club = sel.xpath('text()').extract()
-            link = sel.xpath('@href').extract()
-            print(club,link)
+            item = AFLItem()
+            item['club'] = sel.xpath('text()').extract()
+            item['link'] = sel.xpath('@href').extract()
+            yield item
