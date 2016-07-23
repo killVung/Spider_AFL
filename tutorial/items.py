@@ -16,5 +16,5 @@ class AFLItem(scrapy.Item):
     state = scrapy.Field()
     establish = scrapy.Field()
     stadium = scrapy.Field()
-    
+
     pass

@@ -1,0 +1,20 @@
+[
+{"name": "Port Adelaide", "logoURL": "http://m.portadelaidefc.com.au/staticfile/AFL%20Tenant/PortAdelaide/Images/logo-ptadelaide.png", "link": "http://portadelaidefc.com.au/"},
+{"name": "North Melbourne", "logoURL": "http://www.nmfc.com.au/staticfile/AFL%20Tenant/NorthMelbourne/Images/logo-nmfc-footer.png", "link": "http://kangaroos.com.au/"},
+{"name": "Western Bulldogs", "logoURL": "http://m.westernbulldogs.com.au/staticfile/AFL%20Tenant/WesternBulldogs/Images/logo-bulldogs-footer.png", "link": "http://westernbulldogs.com.au/"},
+{"name": "Sydney Swans", "logoURL": "http://m.sydneyswans.com.au/staticfile/AFL%20Tenant/SydneySwans/Images/logo-sydney-footer.png", "link": "http://sydneyswans.com.au/"},
+{"name": "St Kilda", "logoURL": "http://m.saints.com.au/staticfile/AFL%20Tenant/St%20Kilda/Images/logo-stkilda-footer.png", "link": "http://saints.com.au/"},
+{"name": "West Coast Eagles", "logoURL": "http://s.afl.com.au/staticfile/AFL%20Tenant/WestCoastEagles/Images/logo-footer-westcoast.png", "link": "http://westcoasteagles.com.au/"},
+{"name": "Adelaide Crows", "logoURL": "http://s.afl.com.au/staticfile/AFL%20Tenant/AdelaideCrows/images/logo-adelaide-footer.gif", "link": "http://afc.com.au/"},
+{"name": "Richmond", "logoURL": "http://s.afl.com.au/staticfile/AFL%20Tenant/Richmond/Images/richmond-footer.png", "link": "http://richmondfc.com.au/"},
+{"name": "GWS Giants", "logoURL": "http://www.gwsgiants.com.au/staticfile/AFL%20Tenant/GWSGiants/Images/logo-footer.png", "link": "http://gwsgiants.com.au/"},
+{"name": "Hawthorn", "logoURL": "http://s.afl.com.au/staticfile/AFL%20Tenant/Hawthorn/Images/logo-footer-hawthorn.png", "link": "http://hawthornfc.com.au/"},
+{"name": "Gold Coast Suns", "logoURL": "http://www.goldcoastfc.com.au/staticfile/AFL%20Tenant/GoldCoastSuns/Images/logo-goldcoast-footer.png", "link": "http://goldcoastfc.com.au/"},
+{"name": "Geelong Cats", "logoURL": "http://www.geelongcats.com.au/staticfile/AFL%20Tenant/GeelongCats/Images/logo-geelong-footer.png", "link": "http://geelongcats.com.au/"},
+{"name": "Fremantle", "logoURL": "http://www.fremantlefc.com.au/staticfile/AFL%20Tenant/Fremantle/Images/logo-fremantle-footer.png", "link": "http://fremantlefc.com.au/"},
+{"name": "Essendon", "logoURL": "http://www.essendonfc.com.au/staticfile/AFL%20Tenant/Essendon/Images/logo-essendon-footer.png", "link": "http://essendonfc.com.au/"},
+{"name": "Collingwood", "logoURL": "http://s.afl.com.au/staticfile/AFL%20Tenant/Collingwood/Images/logo-collingwood-footer.png", "link": "http://collingwoodfc.com.au/"},
+{"name": "Melbourne", "logoURL": "http://m.melbournefc.com.au/staticfile/AFL%20Tenant/Melbourne/Images/logo-melbourne-footer.png", "link": "http://melbournefc.com.au/"},
+{"name": "Brisbane Lions", "logoURL": "http://www.lions.com.au/staticfile/AFL Tenant/BrisbaneLions/Branding/logo-web-brisbane-lions.png", "link": "http://lions.com.au/"},
+{"name": "Carlton", "logoURL": "http://www.carltonfc.com.au/staticfile/AFL%20Tenant/Carlton/Images/logo-carlton-footer.png", "link": "http://carltonfc.com.au/"}
+]
