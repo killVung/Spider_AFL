@@ -1,4 +1,4 @@
-# Spider_Australia
+# Spider_AFL
 A Scrapy program that scraps teams from the AFL wikipedia , and ready to be forked and expanded 
 
 ##How to use
