@@ -1,5 +1,6 @@
 import scrapy
 from tutorial.items import AFLItem
+from urllib.parse import urljoin
 
 class AFL_wiki_Spider(scrapy.Spider):
     name = "AFL-wiki"
@@ -30,9 +31,21 @@ class AFL_wiki_Spider(scrapy.Spider):
             club_establish_selector = club_selector_information[4]
             club_establish = club_establish_selector.xpath('text()')[0].extract()
             item['establish'] = club_establish
-            
-            yield item
 
+            #Construct the url link for the football club
+            clubLink = urljoin(response.url,club_name_selector.xpath('a/@href')[0].extract())
 
-
+            #First layer
+            request = scrapy.Request(clubLink,callback=self.parse_football_logo)
+            request.meta['item'] = item
+            yield request
         print("--------------------------------")
+
+    def parse_football_logo(self,response):
+        item = response.meta['item']
+        club_url = response.xpath('//div/table/tr/td/a[@rel and @class="external text"]/@href')[0].extract()
+        club_logo_url = urljoin(response.url,response.xpath('//div/table/tr/td/a/img/@src')[0].extract())
+
+        item['logoURL'] = club_logo_url
+        item['clubURL'] = club_url
+        return item

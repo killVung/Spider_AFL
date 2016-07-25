@@ -6,9 +6,6 @@ class AFLSpider(scrapy.Spider):
     start_urls = [
         "http://www.afl.com.au/"
     ]
-
-
-
     def parse(self,response):
         for sel in response.xpath('//ul[@class="team-logos"]/li/a'):
             name = sel.xpath('text()').extract()[0]
